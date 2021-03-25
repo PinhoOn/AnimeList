@@ -1,0 +1,29 @@
+.body__specif{
+    background-image: url(http://images6.fanpop.com/image/photos/35200000/Shingeki-no-Kyojin-FTW-shingeki-no-kyojin-attack-on-titan-35201366-2952-2031.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header__specif{
+    font-family: 'Rock Salt', cursive;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    opacity: 70%;
+}
+.header--specif--posit{
+    text-align: center;
+    border-top: 0;
+}
+body>img{
+    margin: 50px 0 0 50px;
+    justify-content: center;
+}
+body>a{
+    background-color: black;
+    font-size: 30px;
+}

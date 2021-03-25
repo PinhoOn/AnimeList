@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MyAnimeList</title>
+    <meta charset="utf-8"/>
+    <link href="animelist.css" type="text/css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+
+</head> 
+
+<body class="body__specif">
+    <header class="header__specif header--specif--posit" >
+        <h>Animes Favoritos!</h1>
+    </header>
+    <script>
+        var animelink = ["https://www.crunchyroll.com/pt-br/attack-on-titan", "https://www.crunchyroll.com/pt-br/jujutsu-kaisen" , "https://www.crunchyroll.com/pt-br/death-note" ]
+        var animelist = ["https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_UX182_CR0,0,182,268_AL_.jpg" , "https://m.media-amazon.com/images/M/MV5BNzQyYzU3Y2MtOWY2Yy00ZGM2LTg3ZTUtMDJkZTJiMmEzMjYxXkEyXkFqcGdeQXVyMTI2NTY3NDg5._V1_UY268_CR16,0,182,268_AL_.jpg" , "https://m.media-amazon.com/images/M/MV5BODkzMjhjYTQtYmQyOS00NmZlLTg3Y2UtYjkzN2JkNmRjY2FhXkEyXkFqcGdeQXVyNTM4MDQ5MDc@._V1_UY268_CR1,0,182,268_AL_.jpg"]
+        var animename = ["Shingeki_No_Kiojin", "Jujutsu_Kaisen", "Death_Note"]
+        
+        for (var i = 0; i < animelist.length; i++) {
+            document.write("<img src=" + animelist[i]+ ">")
+        }
+        for (var i = 0; i < animelink.length; i++)
+        for (var l = 0; l < animename.length; l++){
+        document.write ("<a href=" + animelink[i] + ">" + animename[l])
+        }
+    </script>
+</body>
+
+<html>
